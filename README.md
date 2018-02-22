@@ -32,3 +32,4 @@ Somes examples:
 Ideas comes from:
 * http://www.grobinson.me/single-line-php-script-to-gain-shell/
 * https://www.acunetix.com/blog/articles/keeping-web-shells-undercover-an-introduction-to-web-shells-part-3/
+* https://stackoverflow.com/questions/2556345/detect-base64-encoding-in-php/47486214#47486214
